@@ -6,6 +6,11 @@ pipeline {
         echo 'Git URL       is ${SON_URL}'
       }
     }
+    stage('Edit JenkinFile'){
+      steps{
+        echo 'Edit JenkinFile'
+      }
+    }
   }
   environment {
     SON_URL = 'https://github.com/danghoaison91/openairinterface.git'
