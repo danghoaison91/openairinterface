@@ -9,6 +9,8 @@ pipeline {
     stage('Edit JenkinFile') {
       steps {
         echo 'Edit JenkinFile'
+        echo ${URL}
+        echo ${GIT_BRANCH}
       }
     }
   }
