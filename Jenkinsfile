@@ -6,8 +6,8 @@ pipeline {
         echo 'Git URL       is ${SON_URL}'
       }
     }
-    stage('Edit JenkinFile'){
-      steps{
+    stage('Edit JenkinFile') {
+      steps {
         echo 'Edit JenkinFile'
       }
     }
