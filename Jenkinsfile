@@ -14,5 +14,6 @@ pipeline {
   }
   environment {
     SON_URL = 'https://github.com/danghoaison91/openairinterface.git'
+    GIT_BRANCH = 'develop-nr'
   }
 }
